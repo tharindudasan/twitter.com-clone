@@ -1,0 +1,148 @@
+@import url(reset.css);
+@import url(typrography.css);
+@import url(font.css);
+
+* {
+    box-sizing: border-box;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Layouts */
+/* ===========START OF HEADER LAYOUTS=============== */
+body {
+    display: flex;
+}
+
+header {
+    display: flex;
+    width: 275px;
+    justify-content: flex-end;
+    flex-grow: 1;
+    background-color: black;
+}
+
+#header-wrapper {
+    position: fixed;
+    width: 275px;
+    background-color: red;
+    height: 100%;
+    padding: 4px 12px;
+}
+
+main {
+    flex: 1 0 990px;
+    background-color: purple;
+}
+
+#main-wrapper {
+    background-color: yellow;
+    width: 990px;
+}
+
+#bottom-navigation {
+    visibility: hidden;
+    position: fixed;
+    background-color: aqua;
+    height: 52px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#twit-icon {
+    display: flex;
+    /* font-size: 15px; */
+    width: 40px;
+    height: 40px;
+    /* background-color: black; */
+    justify-content: center;
+}
+
+#twit-icon>svg {
+    display: flex;
+    font-size: 15px;
+    width: 1.75rem;
+    fill: rgb(29, 155, 240);
+
+}
+
+svg {
+    width: 2.5rem;
+}
+
+#twit-icon:hover {
+
+    background-color: rgba(29, 156, 240, 0.458);
+    border-radius: 50%;
+}
+
+#slide-nav {
+    padding: 4px 12px;
+    background-color: chartreuse;
+}
+
+#slide-nav svg {
+    padding-right: 15px;
+}
+
+#slide-nav>li a {
+    display: flex;
+    /* slist-style: none; */
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    color: rgb(15, 20, 25)
+}
+
+#slide-nav>li {
+    padding: 10px 0;
+
+}
+
+#slide-nav>li:hover a {
+    background-color: rgba(15, 20, 25, 0.269);
+    width: fit-content;
+    border-radius: 15px;
+
+}
+
+#slide-nav>li>a {
+    padding: 10px;
+}
+
+#tweet-btn div {
+    display: flex;
+    background-color: rgb(29, 155, 240);
+    width: 90%;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 9999px;
+    box-shadow: rgb(0 0 0 / 8%) 0px 8px 28px;
+    color: white;
+    font-size: 1.2rem;
+    opacity: 01;
+
+}
+
+#tweet-btn {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+#tweet-btn div:hover {
+    cursor: pointer;
+    transition-property: 
+
+}

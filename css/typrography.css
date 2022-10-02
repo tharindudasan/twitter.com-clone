@@ -1,0 +1,16 @@
+*{
+    font-family: TwitterChirp, 'Times New Roman', Times, serif;
+}
+body{
+    font-size: 15px;
+    line-height: 20px;
+}
+h2{
+    font-size: 20px;
+}
+small{
+    font-size: 13px;
+}
+h2, .heading{
+    font-size: 20px;
+}
